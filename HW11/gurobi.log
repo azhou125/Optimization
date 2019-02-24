@@ -1,0 +1,32 @@
+
+Gurobi 8.1.0 (win64, Python) logging started 11/21/18 14:34:15
+
+Academic license - for non-commercial use only
+Warning: linear constraint 3 and linear constraint 4 have the same name "fc_location1"
+Optimize a model with 1313 rows, 630 columns and 2500 nonzeros
+Variable types: 0 continuous, 630 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+01, 1e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 3e+00]
+Presolve removed 850 rows and 200 columns
+Presolve time: 0.01s
+Presolved: 463 rows, 430 columns, 1270 nonzeros
+Variable types: 0 continuous, 430 integer (430 binary)
+Found heuristic solution: objective 15045.911688
+
+Root relaxation: objective 1.276015e+04, 216 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    12760.151023 12760.1510  0.00%     -    0s
+
+Explored 0 nodes (216 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 12760.2 15045.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.276015102350e+04, best bound 1.276015102350e+04, gap 0.0000%

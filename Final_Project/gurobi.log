@@ -1,0 +1,304 @@
+
+Gurobi 8.1.0 (win64, Python) logging started 11/29/18 01:40:05
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (win64, Python) logging started 11/30/18 00:08:55
+
+Academic license - for non-commercial use only
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.01s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 1.382500e+04, 67 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    13825.000000 13825.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 13825 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.382500000000e+04, best bound 1.382500000000e+04, gap 0.0000%
+Warning: variables 0 and 105 have the same name "x1,1"
+Warning: linear constraint 0 and linear constraint 91 have the same name "total_aircraft"
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 182 rows, 210 columns and 576 nonzeros
+Variable types: 0 continuous, 210 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+
+MIP start produced solution with objective 13825 (0.03s)
+Loaded MIP start with objective 13825
+
+Presolve removed 92 rows and 106 columns
+Presolve time: 0.01s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: cutoff, 67 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      13825.0000 13825.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 13825 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.382500000000e+04, best bound 1.382500000000e+04, gap 0.0000%
+Warning: variables 0 and 105 have the same name "x1,1"
+Warning: linear constraint 0 and linear constraint 91 have the same name "total_aircraft"
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 273 rows, 315 columns and 864 nonzeros
+Variable types: 0 continuous, 315 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+
+MIP start produced solution with objective 13825 (0.02s)
+Loaded MIP start with objective 13825
+
+Presolve removed 183 rows and 211 columns
+Presolve time: 0.01s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: cutoff, 67 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      13825.0000 13825.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 13825 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.382500000000e+04, best bound 1.382500000000e+04, gap 0.0000%
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 1.382500e+04, 67 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    13825.000000 13825.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 13825 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.382500000000e+04, best bound 1.382500000000e+04, gap 0.0000%
+Warning: variables 0 and 105 have the same name "x1,1"
+Warning: linear constraint 0 and linear constraint 91 have the same name "total_aircraft"
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 182 rows, 210 columns and 576 nonzeros
+Variable types: 0 continuous, 210 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+
+MIP start produced solution with objective 17625 (0.03s)
+Loaded MIP start with objective 17625
+
+Presolve removed 92 rows and 106 columns
+Presolve time: 0.01s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: cutoff, 67 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      17625.0000 17625.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 17625 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.762500000000e+04, best bound 1.762500000000e+04, gap 0.0000%
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 1.762500e+04, 67 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    17625.000000 17625.0000  0.00%     -    0s
+
+Explored 0 nodes (67 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 17625 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.762500000000e+04, best bound 1.762500000000e+04, gap 0.0000%
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 2.172500e+04, 71 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    21725.000000 21725.0000  0.00%     -    0s
+
+Explored 0 nodes (71 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 21725 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.172500000000e+04, best bound 2.172500000000e+04, gap 0.0000%
+
+Gurobi 8.1.0 (win64, Python) logging started 11/30/18 02:07:56
+
+Academic license - for non-commercial use only
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 2.172500e+04, 71 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    21725.000000 21725.0000  0.00%     -    0s
+
+Explored 0 nodes (71 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 21725 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.172500000000e+04, best bound 2.172500000000e+04, gap 0.0000%
+Warning: variables 0 and 105 have the same name "x1,1"
+Warning: linear constraint 0 and linear constraint 91 have the same name "total_aircraft"
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 182 rows, 210 columns and 576 nonzeros
+Variable types: 0 continuous, 210 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+
+MIP start produced solution with objective 21725 (0.03s)
+Loaded MIP start with objective 21725
+
+Presolve removed 92 rows and 106 columns
+Presolve time: 0.01s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: cutoff, 71 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      21725.0000 21725.0000  0.00%     -    0s
+
+Explored 0 nodes (71 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 21725 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.172500000000e+04, best bound 2.172500000000e+04, gap 0.0000%
+
+Gurobi 8.1.0 (win64, Python) logging started 12/07/18 11:21:09
+
+Academic license - for non-commercial use only
+Optimize a model with 91 rows, 105 columns and 288 nonzeros
+Variable types: 0 continuous, 105 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 3e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+01, 1e+03]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 90 rows, 104 columns, 288 nonzeros
+Variable types: 0 continuous, 104 integer (0 binary)
+
+Root relaxation: objective 2.172500e+04, 71 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    21725.000000 21725.0000  0.00%     -    0s
+
+Explored 0 nodes (71 simplex iterations) in 0.11 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 21725 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.172500000000e+04, best bound 2.172500000000e+04, gap 0.0000%
